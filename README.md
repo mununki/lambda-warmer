@@ -15,7 +15,7 @@ This is a lambda function to warm another lambda function in AWS. Especially, th
 - Clone this repo.
 
 ```shell
-$ git clone https://github.com/mattdamon108/lambda-warmer
+$ git clone https://github.com/mattdamon108/lambda-warmer.git
 ```
 
 - Rename `serverless.template.yml` to `serverless.yml` and configure it with your IAM profile.
