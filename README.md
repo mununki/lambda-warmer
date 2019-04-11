@@ -58,7 +58,7 @@ module.exports.warmer = async (event, context, callback) => {
 };
 ```
 
-- deploy
+- Deploy
 
 ```shell
 $ sls deploy
