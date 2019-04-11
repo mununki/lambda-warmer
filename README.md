@@ -1,5 +1,7 @@
 # Lambda Warmer
 
+_The related post: https://moondaddi.dev/post/2019-03-23-how-to-warm-lambda-function/_
+
 This is a lambda function to warm another lambda function in AWS. Especially, this is to solve a cold start issue for **the web app which is deployed on AWS lambda.**
 
 ## Usage
