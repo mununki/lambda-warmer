@@ -1,0 +1,16 @@
+service: lambda-warmer
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  region: ap-northeast-2
+  profile: your-profile  # Edit here with your aws IAM profile
+  memorySize: 128
+  timeout: 15s
+
+functions:
+  warmer:
+    handler: handler.warmer
+    events:
+    - schedule: rate(5 minutes)

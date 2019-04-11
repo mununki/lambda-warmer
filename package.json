@@ -1,0 +1,8 @@
+{
+  "name": "ratelink-lambda-warmer_v2",
+  "version": "1.0.0",
+  "main": "src/handler.js",
+  "license": "MIT",
+  "author": "moondaddi <woonki.moon@gmail.com>",
+  "dependencies": {}
+}
